@@ -1,0 +1,78 @@
+@import "sass/reset";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #161B33;
+    color: #fff;
+    font-family: arial, sans-serif;
+    font-size: 16px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#lyrics {
+    margin: 40px 0;
+    white-space: pre-wrap;
+    line-height: 30px;
+    font-size: 21px;
+    text-align: center;
+    color: #e3e3ef;
+}
+
+#artistOutput {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+#titleOutput {
+    font-size: 24px;
+}
+
+form {
+    display: flex;
+}
+
+input {
+    padding: 7px 10px;
+    background: #282f56;
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    width: 240px;
+    font-size: 14px;
+    margin-right: 5px;
+
+    &::placeholder {
+        color: #818096;
+    }
+}
+
+button {
+    background: #586CCC;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+    padding: 7px 10px;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 12px;
+}
